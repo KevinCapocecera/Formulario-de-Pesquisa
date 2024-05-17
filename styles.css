@@ -1,0 +1,73 @@
+
+label{
+    display: block;
+    margin: 0.5rem 0;   
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+
+    
+}
+h1,p{
+    margin: auto;
+    text-align: center;
+    min-height: 2em;
+    font-family: fantasy;
+
+}
+survey-form{
+    margin: auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    min-height: 2em;
+    padding: 3em;
+}
+body{
+    background-image:url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&dpr=1);
+}
+.Formulário{
+    color: rgb(255, 255, 255);
+    background-color: rgba(22, 53, 139, 0.534);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    max-width: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.inline{
+    width: unset;
+    margin:0 0.5em 0 0;
+    vertical-align: middle;
+    min-height: 2em;
+}
+input,textarea{
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    min-height: 2em;
+}
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    min-width: 300px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+  
+}
+select{
+    background-color: #0a0a23;
+    color: white;
+}
+input,textarea,select{
+    width:100%;
+    margin-bottom:0;
+    margin-top:10px;
+    margin-left: 0;
+    margin-right: 0;
+}
