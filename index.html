@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Formulário de Pesquisa</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="FormularioFreeCodeCamp.css">
+    </head>
+
+    <body>
+        <div class="Formulário">
+            <h1 id="title">Formulário de Pesquisa</h1>
+            <p id="description">Projeto para Certificação HTML - Kevin </p>
+             <form id="survey-form">
+                <fieldset>
+                    <label id="name-label" for="name">Nome <input type="text" name="Nome-label" id="name" placeholder="Digite seu nome" required/></label>
+                    <label id="email-label" for="Email">Email <input type="email" name="Email-label" id="email" placeholder="Digite seu e-mail" required/></label>
+                    <label id="number-label" for="Idade">Idade <input type="number" name="number-label" id="number" min="16" max="120" placeholder="Idade"/></label>
+                    <label for="Status">Qual opção melhor descreve sua função atual?
+                        <select name="Status" id="dropdown">
+                            <option value="0">Selecionar Função atual</option>
+                            <option value="1">Estudante</option>
+                            <option value="2">Trabalho em tempo integral</option>
+                            <option value="3">Aluno em tempo integral</option>
+                            <option value="4">Prefiro não dizer</option>
+                            <option value="5">Outro</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Você recomendaria meus serviços tech para alguém?</legend>
+                    <label for="Definitivamente">Definitivamente! <input class="inline" type="radio" name="Você recomendaria meus serviços tech para alguém?" id="Definitivamente" value="Definitivamente" checked></label>
+                    <label for="Talvez">Talvez <input class="inline" type="radio" name="Você recomendaria meus serviços tech para alguém?" id="Talvez" value="Talvez"></label>
+                    <label for="Não-tenho-certeza">Não tenho certeza <input class="inline" type="radio" name="Você recomendaria meus serviços tech para alguém?" id="Não-tenho-certeza" value="Não-tenho-certeza"></label>
+                </fieldset>
+                <fieldset>
+                    <label for="escolhas">Qual conteúdo você deseja aprender? </label>
+                    <label for="WebDesign"><input class="inline" type="checkbox" name="WebDesign" id="WebDesign" value="WebDesign">Web Design</label>
+                    <label for="JavaScript"><input class="inline" type="checkbox" name="JavaScript" id="JavaScript" value="JavaScript">JavaScript</label>
+                    <label for="Python"><input class="inline" type="checkbox" name="Python" id="Python" value="Python">Python</label>
+                    <label for="Front-end"><input class="inline" type="checkbox" name="Front-end" id="Front-end" value="Front-end">Front-end</label>
+                    <label for="Back-end"><input class="inline" type="checkbox" name="Back-end" id="Back-end" value="Back-end">Back-end</label>
+                </fieldset>
+                <fieldset>
+                    <label for="sugestão">Dê uma sugestão para melhorar os serviços: </label>
+                    <textarea name="sugestão" id="sugestão" cols="60" rows="5"></textarea>
+                </fieldset>
+            <input type="submit" name="submit" id="submit" value="Enviar">
+         </div>
+        </form>
+    </body>
+</html>
